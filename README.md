@@ -6,3 +6,5 @@ _some thing_
 ```py
 print("hello", "world")
 ```
+```mermaid
+```
