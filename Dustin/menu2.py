@@ -58,7 +58,8 @@ def total_numbers() -> None:
     total: int = 0
 
     for num in range(start, end+1):
-        total += num
+        if num % 3 != 0 or num % 4 != 0 or num % 5 != 0:
+            total += num
 
     print(f"Total: {total}")
 
